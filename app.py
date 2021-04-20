@@ -7,7 +7,7 @@ app = Flask(__name__)
 db = SQLAlchemy(app)
 
 app.config['SECRET_KEY'] = 'mysecret'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///C:\\Users\\Maxino\\Desktop\\Loooplab_Flask\\db.sqlite'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////home/maxino/Desktop/My Code/Landing-Page-Website-Flask/db.sqlite'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 
